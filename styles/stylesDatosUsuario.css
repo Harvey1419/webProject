@@ -1,0 +1,42 @@
+/* Configuración inicial */
+html {
+    height: 100vh;
+    background-color: azure;
+
+  }
+  body {
+    height: 96%;
+  }
+
+  .bg  {
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+  }
+p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/*   Configuración formulario */
+.formulario{
+    background-color: white;
+    width: 25%;
+}
+.FormularioTITLE{
+    background-color: azure;
+}
+#apellido{
+    width: 95%;
+}
+.DatosPersonales{
+    border: 2px solid black;
+    width: 90%;
+}
+.DatosPersonales{
+    padding: 5px;
+}
+#fechas{
+    width: 20%;
+    margin-right: 3px;
+}

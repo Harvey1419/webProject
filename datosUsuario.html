@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/stylesDatosUsuario.css" />
+    <title>Document</title>
+</head>
+<body>
+    <section class="bg">
+        <section class="FormularioTITLE">
+            <h1>Datos Usuario</h1>
+            <section class="formulario">
+                <h5>Rellena tu CV</h5>
+                <br>
+                <p>Nombre</p>
+                <input type="text">
+                <p>Apellidos</p>
+                <input type="text" id="apellido">
+                <p>Contraseña</p>
+                <input type="text">
+                <p>Confirmar Contraseña</p>
+                <input type="text">
+                <p>Indentificación</p>
+                <select name="Indentificación" id="">
+                    <option>CC</option>
+                    <option>TI</option>
+                    <option>CE</option>
+                </select>
+                <input type="text">
+                <p>Sexo</p>
+                <input type="radio">Hombre
+                <br>
+                <input type="radio">Mujer
+                <br><br>
+                <p>Incluir mi foto</p>
+                <input type="file" name="examinar">
+                <br><br>
+                <input type="checkbox">Estudiante
+                <br><br>
+                <div class="DatosPersonales">
+                    <p>Datos Personales</p>
+                    <hr>
+                    <p>Departamento</p>
+                    <select name="Departamento" id="">
+                        <option>Santander</option>
+                        <option>Boyacá</option>
+                        <option>Atlantico</option>
+                        <option>Casanare</option>
+                        <option>Antioquia</option>
+                    </select>
+                    <br>
+                    <p>Fecha de nacimiento</p>
+                    <input type="text" id="fechas">de 
+                    <select name="mes" id="fechas">
+                        <option>Enero</option>
+                        <option>Marzo</option>
+                        <option>Abril</option>
+                        <option>Junio</option>
+                        <option>Julio</option>
+                    </select>de
+                    <input type="text" id="fechas">
+                    <br>
+                    <p>Temas de interés</p>
+                    <select name="interes" multiple>
+                        <option>Administración de bases de datos</option>
+                        <option>Análisis y programación</option>
+                        <option>Arquitectura</option>
+                        <option>Calidad</option>
+                        <option>ERP,CRM,Bussines Intelligence</option>
+                    </select>
+                </div>
+                <button>Guardar Cambios</button>
+                <button>Borrar los datos introducidos</button>
+                <a href="formulario.html">
+                    <button>Regresar al formulario</button>
+                </a>
+            </section>
+        </section>
+    </section>
+</body>
+</html>
