@@ -1,0 +1,14 @@
+/* Configuración inicial */
+html {
+  height: 100vh;
+}
+body {
+  height: 96%;
+}
+section {
+  height: 100%;
+}
+.bg  {
+  width: 100%;
+  height: 100%;
+}
