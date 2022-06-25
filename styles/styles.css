@@ -1,0 +1,69 @@
+/* Configuración inicial */
+.bg  {
+  width: 100%;
+  height: 100%;
+}
+html {
+  height: 100vh;
+}
+body {
+  height: 96%;
+}
+section {
+  height: 100%;
+}
+
+/* configurar el contenido */
+.content {
+  border-radius: 3%;
+  border: 1px solid black;
+  width: 40%;
+  height: 55%;
+  align-self: center;
+  justify-content: center;
+  padding: 8px;
+  display: grid;
+  text-align: center;
+}
+h1 {
+  font-size: 22px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+/* tamaño imagenes */
+#uisLOGO {
+  width: 20%;
+}
+#htmlLOGO {
+  width: 15%;
+}
+/* Configuración campos */
+.campos {
+  display: flex;
+  align-content: center;
+  padding-right: 1%;
+  align-items: center;
+}
+#enterButton {
+  height: 50%;
+}
+#nombreU {
+  padding-right: 1%;
+}
+#pass {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+#olvidadoContra {
+  margin: 0px;
+}
+@media screen and ( max-height: 630px ) {
+  .content {
+    width: 40%;
+    height: 75%;
+
+  }
+}
