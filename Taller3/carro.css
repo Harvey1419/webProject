@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0F2027;
+    /* fallback for old browsers /
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    / Chrome 10-25, Safari 5.1-6 /
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-register {
+    width: 1500px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    margin-left: 500;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.a {
+    margin-top: 20px;
+    padding: auto;
+}
+
+.container {
+    margin-top: 30px;
+    padding: auto;
+}
+
+.color {
+    font-family: 'calibri';
+    color: white;
+}
+
+h1 {
+    font-family: 'calibri';
+    color: white;
+    margin-bottom: 20px;
+}

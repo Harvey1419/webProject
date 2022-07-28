@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="carro.css">
+    <title>Registro de usuarios Boostrap</title>
+</head>
+
+<body>
+    <form class="form-register">
+        <center>
+            <h1>Registro del coche</h1>
+        </center>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" name="modelo" placeholder="Modelo">
+                </div>
+                <div class="col-md-1">
+                    <input type="text" class="form-control" name="anio" placeholder="Año">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-1">
+                        <label class="color" for="pais">Combustible:</label>
+                        <select class="form-control" id="gas-type">
+                        <option value="001">Diesel</option>
+                        <option value="002">Corriente</option>
+                        <option value="003">Premium</option>
+                        <option value="004">Gas</option>
+                    </select>
+                    </div>
+                    <div class="col-md-1">
+                        <label class="color" for="pais">Tipo:</label>
+                        <select class="form-control" id="car-type">
+                        <option value="001">Familiar</option>
+                        <option value="002">Todoterreno</option>
+                        <option value="003">Cupé</option>
+                        <option value="004">Sedán</option>
+                        <option value="005">Cabriolet</option>
+                    </select>
+                    </div>
+                    <div class="col-md-1">
+                        <label class="color" for="pais">Estado:</label>
+                        <select class="form-control" id="car-status">
+                        <option value="001">Nuevo</option>
+                        <option value="002">Usado</option>
+                    </select>
+                    </div>
+                    <div class="col-md-1">
+                        <label class="color" for="pais">Marca:</label>
+                        <select class="form-control" id="car-brand">
+                        <option value="001">Audi</option>
+                        <option value="002">BMW</option>
+                        <option value="003">Bugatti</option>
+                        <option value="004">Ferrari</option>
+                        <option value="005">Fiat</option>
+                        <option value="006">Ford</option>
+                        <option value="007">Honda</option>
+                        <option value="008">Jeep</option>
+                        <option value="009">KIA</option>
+                        <option value="010">Lamborghini</option>
+                        <option value="011">Mazda</option>
+                        <option value="012">Mercedes-Benz</option>
+                        <option value="013">Nissan</option>
+                        <option value="014">Chevrolet</option>
+                        <option value="015">Toyota</option>
+                        <option value="016">Renault</option>
+                        <option value="017">Tesla</option>
+                    </select>
+                    </div>
+                    <div class="col-md-1">
+                        <label class="color" for="pais">Usuario:</label>
+                        <select class="form-control" id="id-usr">
+                        <option value="000000">Usuario1</option>
+                        <option value="000001">Usuario2</option>
+                        <option value="000002">Usuario3</option>
+                    </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-2">
+                        <label class="color" for="caja">Número de transmisiones:</label>
+                        <input type="number" class="form-control" id="caja" placeholder="1 a 9" min="1" max="9" step="1">
+
+                    </div>
+                    <div class="col-md-2">
+                        <label class="color" for="caja">Motor:</label>
+                        <input type="number" class="form-control" id="motor" placeholder="5.0" min="1.0" max="12.0" step="0.1">
+                    </div>
+                    <div class="col-md-2">
+                        <label class="color" for="caja">Precio:</label>
+                        <input type="number" class="form-control" id="precio" placeholder="2.3" min="0.1" step="0.1">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-2">
+                        <label class="color" for="caja">Fecha de publicación:</label>
+                        <input type="date" class="form-control" id="fechapub" placeholder="1979-12-31">
+                    </div>
+                    <div class="col-md-2">
+                        <label class="color" for="caja">Precio:</label>
+                        <input type="number" class="form-control" id="precio" placeholder="2.3" min="0.1" step="0.1">
+                    </div>
+                    <div class="col-md-2">
+                        <label class="color" for="caja">Moneda:</label>
+                        <input type="text" class="form-control" id="moneda" placeholder="USD" minlength="1" maxlength="3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label class="color" for="descripcion-1">Descripción 1:</label>
+                        <textarea class="form-control" id="descripcion-1" rows="2"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label class="color" for="descripcion-2">Descripción 2:</label>
+                        <textarea class="form-control" id="descripcion-2" rows="2"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label class="color" for="descripcion-3">Descripción 3:</label>
+                        <textarea class="form-control" id="descripcion-2" rows="2"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-5"></div>
+                    <div class="col-md-2">
+                        <label class="color" for="caja">Destac:</label>
+                        <input type="text" class="form-control" id="moneda" placeholder="SI" minlength="1" maxlength="2">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-primary">ENVIAR</button>
+                </div>
+            </div>
+    </form>
+</body>
+
+</html>

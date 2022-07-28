@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registro Bulma</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css"
+    /> -->
+    <!-- <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css"> -->
+  </head>
+  <body>
+    <div class="column is-6 is-half is-offset-one-quarter">
+      <article class="message is-success">
+        <div class="message-header">
+          <h2>Registro Coche</h2>
+        </div>
+        <div class="message-body field">
+          <form class="" action="index.html" method="post"></form>
+          <form class="" action="carbulma.html" method="post">
+            <div class="columns">
+              <div class="column">
+                <label for="nombre" class="label">Usuario: </label>
+                <div class="control">
+                  <input
+                    type="text"
+                    class="input is-focused"
+                    placeholder="Nombre completo"
+                  />
+                </div>
+                <p class="help is-success">Ingrese su nombre completo</p>
+              </div>
+            </div>
+
+            <div class="columns">
+              <div class="column">
+                <label for="perfil" class="label">Pais: </label>
+                <div class="control has-icons-left">
+                  <div class="select">
+                    <select>
+                      <option value="" selected></option>
+                      <option value="colombia">Colombia</option>
+                      <option value="ecuador|">Ecuador</option>
+                      <option value="cuba">Cuba</option>
+                      <option value="brasil">Brasil</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fa fa-user"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <label for="perfil" class="label">Combustible: </label>
+                <div class="control has-icons-left">
+                  <div class="select">
+                    <select>
+                      <option value="" selected></option>
+                      <option value="gasolina">Gasolina</option>
+                      <option value="diesel">Diesel</option>
+                      <option value="Biodiesel">Biodiesel</option>
+                      <option value="Electricidad">Electricidad</option>
+                      <option value="Gas natural">Gas natural</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fa fa-user"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <label for="perfil" class="label">Tipo de Coche: </label>
+                <div class="control has-icons-left">
+                  <div class="select">
+                    <select>
+                      <option value="" selected></option>
+                      <option value="Carro">Carro</option>
+                      <option value="Campero">Campero</option>
+                      <option value="Camion">Camión</option>
+                      <option value="Moto">Moto</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fa fa-user"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <label for="perfil" class="label">Estado: </label>
+                <div class="control has-icons-left">
+                  <div class="select">
+                    <select>
+                      <option value="" selected></option>
+                      <option value="Nuevo">Nuevo</option>
+                      <option value="Usado">Usado</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fa fa-user"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-8">
+                <label for="perfil" class="label">Marca: </label>
+                <div class="control has-icons-left">
+                  <div class="select">
+                    <select>
+                      <option value="" selected></option>
+                      <option>Volvo</option>
+                      <option>Nissan</option>
+                      <option>Audi</option>
+                      <option>Renault</option>
+                      <option>Chevrolet</option>
+                      <option>AKT</option>
+                    </select>
+                  </div>
+                  <div class="icon is-small is-left">
+                    <i class="fa fa-user"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="columns">
+              <div class="column">
+                <label for="usuario" class="label">Modelo: </label>
+                <div class="control has-icons-left">
+                  <input type="text" class="input" />
+                </div>
+              </div>
+              <div class="column">
+                <label for="usuario" class="label">Año: </label>
+                <div class="control has-icons-left">
+                  <input type="text" class="input" />
+                </div>
+              </div>
+              <div class="column">
+                <label for="email" class="label">Detalle: </label>
+                <div class="control">
+                  <input type="email" class="input" />
+                </div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <label for="tel" class="label">Caja: </label>
+                <div class="control">
+                  <input type="tel" class="input" />
+                </div>
+              </div>
+              <div class="column">
+                <label for="tel" class="label">Motor: </label>
+                <div class="control">
+                  <input type="tel" class="input" />
+                </div>
+              </div>
+              <div class="column">
+                <label for="fechaExp" class="label"
+                  >Fecha de Publicación:
+                </label>
+                <div class="control">
+                  <input type="date" class="input" placeholder="aaaa-mm-dd" />
+                </div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <label for="fechaExp" class="label">Precio: </label>
+                <div class="field has-addons">
+                  <p class="control">
+                    <span class="select">
+                      <select>
+                        <option>$</option>
+                        <option>£</option>
+                        <option>€</option>
+                      </select>
+                    </span>
+                  </p>
+                  <p class="control is-expanded">
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder="Precio del Coche"
+                    />
+                  </p>
+                </div>
+                <p class="help is-success">
+                  Escoja la moneda e indique el precio del coche
+                </p>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <label for="perfil" class="label">Descripción: </label>
+              </div>
+              <div class="control is-expanded">
+                <textarea
+                  class="textarea is-focused"
+                  placeholder="Descripción del Coche"
+                  cols="50"
+                ></textarea>
+              </div>
+            </div>
+            <div class="field is-grouped is-grouped-centered">
+              <p class="control">
+                <a class="button is-success">
+                  Enviar
+                </a>
+              </p>
+              <p class="control">
+                <a class="button is-danger">
+                  Cancel
+                </a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>

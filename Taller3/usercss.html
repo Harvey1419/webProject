@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Registro Usuario</title>
+    <link  rel="stylesheet"  type="text/css" href="styles/style.css" media="screen" />
+  </head>
+  <body>
+    <div class="prueba">
+      <h2>REGISTRO USUARIO</h2>
+      <fieldset class="border">
+        <form class="registro" action="index.html" method="post">
+          <p>
+            Nombre
+            <input type="text" name="nombre" value="" required />
+          </p>
+          <p>
+            Apellido
+            <input type="text" name="apellido" value="" required />
+          </p>
+          <p>
+            Dirección
+            <input type="text" name="direccion" value="" />
+          </p>
+          <p>
+            Pais
+            <select class="select-pais" name="pais">
+              <option value=" " selected> </option>
+              <option value="colombia">Colombia</option>
+              <option value="cuba">Cuba</option>
+              <option value="suiza">Suiza</option>
+            </select>
+          </p>
+          <p>
+            Usuario
+            <input type="text" name="usuario" value="" required/>
+          </p>
+          <p>
+            Contraseña
+            <input type="password" name="contrasenia" value="" required />
+          </p>
+          <p>
+            Email
+            <input type="email" name="" value="" />
+          </p>
+          <p>
+            Telefono
+            <input type="text" name="telefono" value="" />
+          </p>
+          <p class="full">
+            <button class="enviar">Enviar</button>
+          </p>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
